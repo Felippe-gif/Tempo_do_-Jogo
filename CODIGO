@@ -1,0 +1,11 @@
+inicio =int(input())
+fim =int(input())
+
+if fim > inicio:
+    duracao = fim - inicio
+elif fim < inicio:
+    duracao = (24 - inicio) + fim
+else:
+    duracao = 24
+
+print(f"O JOGO DUROU {duracao} HORA(S)")
